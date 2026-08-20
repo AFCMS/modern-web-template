@@ -1,0 +1,51 @@
+{
+  "name": "modern-web-template",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "format": "oxfmt",
+    "format:check": "oxfmt --check",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/devtools": "^0.5.1",
+    "@vitejs/devtools-oxc": "^0.5.1",
+    "@vitejs/devtools-rolldown": "^0.5.1",
+    "@vitejs/devtools-vite": "^0.5.1",
+    "@vitejs/devtools-vitest": "^0.5.1",
+    "@vitejs/plugin-react": "^6.1.0",
+    "@vitest/ui": "^4.1.11",
+    "oxc-transform-react": "^0.145.0",
+    "oxfmt": "^0.64.0",
+    "oxlint": "^1.79.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11",
+      "onFail": "error"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^24",
+      "onFail": "error"
+    }
+  }
+}
