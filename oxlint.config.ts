@@ -12,6 +12,9 @@ export default defineConfig({
     "promise",
     "vitest",
   ],
+  categories: {
+    correctness: "error",
+  },
   options: {
     typeAware: true,
   },
