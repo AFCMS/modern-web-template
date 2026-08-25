@@ -7,5 +7,8 @@ export default defineConfig({
   build: {
     chunkImportMap: true,
   },
+  css: {
+    transformer: "lightningcss",
+  },
   devtools: { enabled: false },
 });
