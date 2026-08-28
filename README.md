@@ -9,7 +9,7 @@ Based on:
 - Vitest
 - GitHub Actions
 - TailwindCSS 4
-- PNPM 11
+- PNPM 12
 
 Focus on:
 
