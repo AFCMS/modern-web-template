@@ -5,5 +5,6 @@ trustPolicy: no-downgrade
 
 trustPolicyExclude:
   - semver
+  - why-is-node-running@3.2.2
 
 pmOnFail: ignore
