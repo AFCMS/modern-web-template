@@ -1,13 +1,14 @@
 {
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.formatOnType": true,
   "editor.defaultFormatter": "oxc.oxc-vscode",
   "editor.detectIndentation": false,
   "oxc.enable": true,
   "oxc.configPath": "oxlint.config.ts",
   "oxc.fmt.configPath": "oxfmt.config.ts",
+  "files.associations": { "**/.github/workflows/*.{yml,yaml}": "github-actions-workflow" },
   "[typescript]": {
     "editor.defaultFormatter": "oxc.oxc-vscode",
     "editor.tabSize": 2
