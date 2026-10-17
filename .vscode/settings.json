@@ -22,6 +22,10 @@
     "editor.defaultFormatter": "oxc.oxc-vscode",
     "editor.tabSize": 2
   },
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.tabSize": 2
+  },
   "[json]": {
     "editor.quickSuggestions": {
       "strings": true
@@ -31,6 +35,14 @@
     "editor.tabSize": 2
   },
   "[jsonc]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+    "editor.tabSize": 2
+  },
+  "[snippets]": {
     "editor.quickSuggestions": {
       "strings": true
     },
