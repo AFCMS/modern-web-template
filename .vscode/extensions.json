@@ -1,3 +1,7 @@
 {
-  "recommendations": ["voidzero.vite-plus-extension-pack", "github.vscode-github-actions"]
+  "recommendations": [
+    "voidzero.vite-plus-extension-pack",
+    "github.vscode-github-actions",
+    "bradlc.vscode-tailwindcss"
+  ]
 }
