@@ -60,10 +60,11 @@
       "strings": true,
       "other": true,
       "comments": false
-    }
+    },
+    "editor.defaultFormatter": "oxc.oxc-vscode"
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.defaultFormatter": "oxc.oxc-vscode",
     "editor.tabSize": 2
   },
   "[markdown]": {
