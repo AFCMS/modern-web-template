@@ -19,3 +19,26 @@ Focus on:
 - Easy VSCode configuration
 - LLMs friendly
 - Deterministic code style (Oxlint + Oxfmt)
+
+## Cloudflare Deployment
+
+Settings -> Build configuration
+
+Deploy command:
+
+```bash
+pnpx wrangler deploy
+```
+
+Version command:
+
+```bash
+pnpx wrangler versions upload
+```
+
+Settings -> Variables and secrets
+
+```properties
+NODE_VERSION=26
+PNPM_VERSION=12
+```
