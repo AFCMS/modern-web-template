@@ -3,4 +3,8 @@ blockExoticSubdeps: true
 minimumReleaseAge: 360 # 6 hours
 trustPolicy: no-downgrade
 
+allowBuilds:
+  esbuild: true
+  workerd: true
+
 pmOnFail: ignore
