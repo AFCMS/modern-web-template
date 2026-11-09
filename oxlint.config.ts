@@ -18,4 +18,7 @@ export default defineConfig({
   options: {
     typeAware: true,
   },
+  rules: {
+    "import/extensions": ["error", "always", { checkTypeImports: true, ignorePackages: true }],
+  },
 });
