@@ -48,6 +48,9 @@ importers:
       '@vitest/ui':
         specifier: ^5.1.0
         version: 5.1.0(vitest@5.1.0)
+      husky:
+        specifier: ^9.1.7
+        version: 9.1.7
       oxc-transform-react:
         specifier: ^0.158.0
         version: 0.158.0
@@ -1178,6 +1181,11 @@ packages:
         optional: true
       ocache:
         optional: true
+
+  husky@9.1.7:
+    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
@@ -2333,6 +2341,8 @@ snapshots:
       srvx: 1.0.8
     optionalDependencies:
       crossws: 0.4.17(srvx@1.0.8)
+
+  husky@9.1.7: {}
 
   isexe@2.0.0: {}
 
