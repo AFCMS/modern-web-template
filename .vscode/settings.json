@@ -10,6 +10,7 @@
   "oxc.fmt.configPath": "oxfmt.config.ts",
   "files.associations": {
     "**/.github/workflows/*.{yml,yaml}": "github-actions-workflow",
+    "**/.github/workflows/actions.lock": "yaml",
     "*.css": "tailwindcss",
     "llms.txt": "markdown"
   },
