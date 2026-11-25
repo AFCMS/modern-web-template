@@ -35,7 +35,7 @@ jobs:
           install: true
 
       - name: Lint
-        run: pnpm run lint
+        run: pnpm run lint:check
 
       - name: Format check
         run: pnpm run format:check

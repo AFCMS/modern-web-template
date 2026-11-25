@@ -10,6 +10,7 @@
     "format:check": "oxfmt --check",
     "test": "vitest",
     "lint": "oxlint",
+    "lint:check": "oxlint --type-check",
     "preview": "vite preview",
     "prepare": "husky"
   },
@@ -28,6 +29,7 @@
     "@vitejs/devtools-vite": "^0.8.3",
     "@vitejs/devtools-vitest": "^0.8.3",
     "@vitejs/plugin-react": "^6.3.0",
+    "@vitest/coverage-v8": "^5.1.2",
     "@vitest/ui": "^5.1.2",
     "husky": "^9.1.7",
     "oxc-transform-react": "^0.158.0",
