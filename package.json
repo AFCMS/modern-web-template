@@ -19,8 +19,8 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.5",
-    "@types/node": "^26.6.6",
-    "@types/react": "^19.3.0",
+    "@types/node": "^26.6.10",
+    "@types/react": "^19.3.2",
     "@types/react-dom": "^19.3.0",
     "@vitejs/devtools": "^0.8.3",
     "@vitejs/devtools-oxc": "^0.8.3",
@@ -28,16 +28,16 @@
     "@vitejs/devtools-vite": "^0.8.3",
     "@vitejs/devtools-vitest": "^0.8.3",
     "@vitejs/plugin-react": "^6.3.0",
-    "@vitest/ui": "^5.1.0",
+    "@vitest/ui": "^5.1.2",
     "husky": "^9.1.7",
     "oxc-transform-react": "^0.158.0",
-    "oxfmt": "^0.79.0",
-    "oxlint": "^1.94.0",
-    "oxlint-tsgolint": "^7.0.2007",
+    "oxfmt": "^0.80.0",
+    "oxlint": "^1.95.0",
+    "oxlint-tsgolint": "^7.0.2008",
     "tailwindcss": "^4.3.5",
     "typescript": "~7.0.2",
     "vite": "^8.3.8",
-    "vitest": "^5.1.0"
+    "vitest": "^5.1.2"
   },
   "devEngines": {
     "packageManager": {
